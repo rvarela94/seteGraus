@@ -4,8 +4,10 @@
 		protected $width, $length;
 		private $id;
 
-		function __construct($name = null, $length = null, $width = null, $id = null) {
-            $this->name = $name;
+        define("TYPE", "1");
+
+		function __construct($name, $length = null, $width = null, $id) {
+            $this->name = $name == null ? "Random Shape" : $name;
 			$this->length = $length;
             $this->width = $width;
             $this->set_id($id);
