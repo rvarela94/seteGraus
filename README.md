@@ -1,9 +1,11 @@
-# Exercicio 7Graus
+# Exercício 7Graus
 
 Introdução
 ------------
 
 Este exercício foi desenvolvido em php puro não contendo interface gráfica, baseado no conhecimento adquirido há 3 anos e sem continuidade no dia-a-dia. Nessa altura, fiz parte de equipas que desenvolveram rebrandings e foi utilizado wordpress, drupal e laravel na grande maioria dos projetos.
+
+Serve o presente exercício para auferir capacidades de desenvolvimento em PHP em role de Backend Developer.
 
 Classe shape
 ------------
