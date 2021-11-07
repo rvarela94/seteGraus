@@ -3,8 +3,6 @@
 		public $name;
 		protected $width, $length;
 		private $id;
-		
-		var $cloneObject;
 
 		define("TYPE", "1");
 
@@ -16,7 +14,7 @@
 		}
 
 		function __clone(){
-			$this->cloneObject = clone $this->cloneObject;
+			$this->name = $this->name . " Cloned";
 		}
 
 		function get_id() {
