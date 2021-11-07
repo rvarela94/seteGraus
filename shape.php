@@ -38,14 +38,14 @@
 	}
 
 	$object = new Shape("First", 25, 32, null);
-    echo $object->get_id() ."<br>";
-    echo $object->returnRectangleArea(12) ."<br>";
+	echo $object->get_id() ."<br>";
+	echo $object->returnRectangleArea(12) ."<br>";
 
 	$object2 = new Shape("First", 25, 32, "3YearsLater");
-    echo $object2->get_id() ."<br>";
-    echo $object2->returnRectangleArea(12) ."<br>";
-    
-    $copy = clone $object;
-    print_r($object);
-    print_r($copy);
+	echo $object2->get_id() ."<br>";
+	echo $object2->returnRectangleArea(12) ."<br>";
+
+	$copy = clone $object;
+	print_r($object);
+	print_r($copy);
 ?>
